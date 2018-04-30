@@ -1,4 +1,4 @@
-class CreateCostumes < ActiveRecord::Migration
+class CreateCostumes < ActiveRecord::Migration[5.1]
 
 # Create a class and inherit from ActiveRecord::Migration
 
@@ -10,5 +10,8 @@ class CreateCostumes < ActiveRecord::Migration
 # In this change method, create columns with the correct names and
 # value types according to the spec
 
+  def change
+
+  end
 
 end
