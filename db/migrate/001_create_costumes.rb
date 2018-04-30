@@ -13,6 +13,9 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
     create_table |t|
       t.string :name
+      t.integer :price
+      t.integer :size
+      t.string :image_url
     end
   end
 
