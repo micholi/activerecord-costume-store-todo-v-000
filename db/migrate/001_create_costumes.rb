@@ -11,7 +11,9 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
 # value types according to the spec
 
   def change
-
+    create_table |t|
+      t.string
+    end
   end
 
 end
